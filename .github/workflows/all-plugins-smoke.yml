@@ -173,7 +173,7 @@ jobs:
         # verification/skill-mcp-tool-baseline.json; a new one fails. After
         # fixing some, run with --update-baseline to lower the floor.
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: all-plugins-smoke-report
