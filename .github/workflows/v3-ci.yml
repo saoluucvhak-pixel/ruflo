@@ -501,7 +501,7 @@ jobs:
       # compiles from source, and macos-latest's Python 3.12 has no distutils.
       - name: Setup Python for node-gyp (macOS)
         if: runner.os == 'macOS'
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.11'
 
